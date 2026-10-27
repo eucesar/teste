@@ -1,0 +1,39 @@
+Atividade Classe 04 — kit para os amigos
+========================================
+
+O que tem neste ZIP
+-------------------
+servidor_udp.py   -> servidor (recebe a imagem)
+cliente_udp.py    -> cliente (envia a imagem)
+neymar.png        -> imagem de exemplo (já pronta)
+LEIA-ME.txt       -> este arquivo
+
+1) Trocar o RA
+--------------
+Abre os DOIS arquivos .py no VS Code e troca só esta linha:
+
+    RA = "SEU_RA"
+
+pelo seu RA, por exemplo:
+
+    RA = "2403862"
+
+Tem que trocar no servidor_udp.py E no cliente_udp.py.
+
+2) Rodar no VS Code
+-------------------
+- Abre a pasta descompactada no VS Code (File -> Open Folder)
+- Terminal -> New Terminal  ->  python servidor_udp.py
+- Terminal -> New Terminal  ->  python cliente_udp.py
+
+Se python nao funcionar, tenta: python3 servidor_udp.py
+
+3) Enviar no AVA
+----------------
+Compacta em ZIP:
+  - servidor_udp.py
+  - cliente_udp.py
+  - neymar.png
+
+Nomeia o zip com o SEU RA, exemplo: 2403862_AtividadeClasse04.zip
+Sobe no AVA e clica em Enviar.
